@@ -5,10 +5,13 @@ public class MainActividad5 {
     {
         System.out.println("X = " + x);
         System.out.println("Y = " + y);
-        System.out.println("Suma = " + (x+y));
-        System.out.println("Resta = " + (x-y));
-        System.out.println("Multiplicación = " + (x*y));
-        System.out.println("División = " + (x/y));
-        System.out.println("Módulo = " + (x%y));
+        System.out.println("Suma = " + x + " + " + y + " = " + (x+y));
+        System.out.println("Resta 1 = " + x + " - " + y + " = " +  (x-y));
+        System.out.println("Resta 2 = " + y + " - " + x + " = " +  (y-x));
+        System.out.println("Multiplicación = " + x + " * " + y + " = " + (x*y));
+        System.out.println("División 1 = " + x + " / " + y + " = " + (x/y));
+        System.out.println("División 2 = " + y + " / " + x + " = " + (y/x));
+        System.out.println("Módulo 1 = " + x + " % " + y + " = " + (x%y));
+        System.out.println("Módulo 2 = " + y + " % " + x + " = " + (y%x));
     }
 }
